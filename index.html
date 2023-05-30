@@ -1,0 +1,68 @@
+<html>
+  <h1> Fruit Fights</h1>
+  <h2> Banana: The Tactical Fruit</h2>
+<body id ="body1">
+   <img id = "bananaImg" src = "https://th-thumbnailer.cdn-si-edu.com/xK6NAJHiv_51fzn5sDiQt0eD5Is=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/d5/24/d5243019-e0fc-4b3c-8cdb-48e22f38bff2/istock-183380744.jpg" width = 300px height = 200px >
+  <p> -- Bananas are an amazing fruit. Its yellow soft mushy texture has people addicted. The sweetness of the fruit will leave you wanting more.</p>
+ <a href = "https://cdn11.bigcommerce.com/s-3uewkq06zr/images/stencil/1280x1280/products/146/385/lemon_yellow__63669.1494606073.png?c=2">Learn What Yellow Looks Like</a>
+  <ul>
+    <li> Endurance: 5 Days</li>
+    <li>Attack Capabilities: Poke, Throw, Beat, Choke, Immobolize</li>
+    <li>Damage: 3/10</li>
+  </ul>
+  <h3>Apple: The Tank Fruit</h3>
+  <img src = "https://appleforthat.stemilt.com/wp-content/uploads/2016/05/Jonagold-200px.png">
+  <p> -- Apples are arguably the most well known fruit, and for good reason too. Apples have a sweet inside that satisfies your taste buds like no other. Its juiciness and sweetness combined leaves you feeling refreshed after eating it. Its red skin, however, does not have the most desirable taste</p>
+    <a href = "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwY29sb3VyfGVufDB8fDB8fHww&w=1000&q=80">Learn What Red Looks like</a>
+   <ul>
+    <li> Endurance: 6 Weeks</li>
+    <li>Attack Capabilities: Throw, Beat</li>
+    <li>Damage: 9/10</li>
+  </ul>
+  <h4>Orange: The Stun Fruit</h4>
+  <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTgNAKI9yS0woODeI5HnfmBnwXB_PD7QRomD3tzgMrTw&usqp=CAU&ec=48665698" width: "450" height: "375">
+  <p>--Oranges are among the more citrusy furits. Its rough rubbery shell houses a sweet and refreshing food. The juciness of the orange quenches the thisrt of anyone who consumes it.</p>
+  <a href = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSnHaCqP6qWONivwjUGIQXHss_SxxOsGoOu0t8whOmCg&usqp=CAU&ec=48665698">Learn What Orange Looks Like</a>
+   <ul>
+    <li> Endurance: 1 Week</li>
+    <li>Attack Capabilities: Throw, Beat, Stun, Immobolize</li>
+    <li>Damage: 7/10</li>
+  </ul>
+   <h5>Fruit Fight Simulation</h5>
+  <p id="syu">Select Your Fruit</p>
+  <input type = "text" id = "userInput">
+ 
+  <button id ="userButton" type ="button" onClick ="setUserInputWhite()">Hide</button>
+  <p id = "sof">Select Opponents Fruit</p>
+  <input type = "text" id = "opponentInput">
+  <button id = "opponentButton" type = "button" onClick = "setOpponentInputWhite()" >Hide</button>
+  <p></p>
+  <button id="fight"type = "button" onClick = "fight(getTextUser(), getTextOpponent())" >Fight</button>
+  <p></p>
+  </body>
+  <image id="uFruit" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNNmcKP13GUVzjVoQuPuZBGhPuKwoioIYOhA&usqp=CAU"></image>
+  <p id = "contestants"></p>
+  <image id = "oFruit" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNNmcKP13GUVzjVoQuPuZBGhPuKwoioIYOhA&usqp=CAU"></image>
+  <p id ="results">Result: Undefined</p>
+  <table id="table">
+    <tr id="tr1">
+      <th>Selection</th>
+      <th>Opponent Selection</th>
+      <th>Result</th>
+    </tr>
+    <tr="tr2">
+      <td>Orange</td>
+      <td>Banana</td>
+      <td>Orange</td>
+    </tr>
+    <tr="tr3">
+      <td>Apple</td>
+      <td>Orange</td>
+      <td>Apple</td>
+    </tr>
+    <tr="tr4">
+      <td>Banana</td>
+      <td>Apple</td>
+      <td>Banana</td>
+    </tr>
+    </table>
